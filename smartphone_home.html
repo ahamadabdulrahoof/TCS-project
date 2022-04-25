@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ranking Features of a Smartphone by Price</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body background="/static/images/pic1.jpg">
+<!-- Input Form -->
+<div  class="input form">
+  <form action="{{url_for('predict')}}"method="post" id="input head">
+    <h1 id="heading">Smartphone Ranking</h1>
+    <h3 id="input">Enter features</h3>
+    <input type="text" name="RM" placeholder="Ram">
+    <input type="text" name="BP" placeholder="Battery power">
+    <input type="text" name="MT" placeholder="Mobile weight">
+    <input type="text" name="SW" placeholder="sc_w">
+    <input type="text" name="SH" placeholder="sc_h">
+    <input type="text" name="IM" placeholder="Internal memory">
+    <input type="text" name="CS" placeholder="Clock speed">
+    <input type="text" name="TT" placeholder="Talk time">
+    <input type="text" name="PW" placeholder="px_width">
+    <input type="text" name="PH" placeholder="px_height">
+    <br>
+    <br>
+    <button id="submit" type="submit">Submit</button>
+  </form>
+ 
+</div>
+   
+</body>
+</html>
